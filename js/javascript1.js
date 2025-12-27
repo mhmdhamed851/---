@@ -52,6 +52,16 @@ document.addEventListener("DOMContentLoaded", () => {
   // تعيين تاريخ اليوم كتاريخ افتراضي للزيارة
   const today = new Date().toISOString().split("T")[0];
   document.getElementById("inspectionDate").value = today;
+  
+  // جلب اسم معد التقرير من القائمة المنسدلة التي أضفناها في الـ HTML
+const editorName = document.getElementById('reportEditor').value;
+
+// تحديد إحداثيات الطباعة (تأكد أن الإحداثي Y يزيد بمقدار 10 عن سطر التاريخ ليكون تحته)
+// ملاحظة: الرقم 75 و 85 هي أمثلة، إذا كان التاريخ يظهر عند 75، اجعل الاسم عند 85
+if (editorName) {
+    doc.setFontSize(11); // حجم الخط
+    doc.text(`معد التقرير: ${editorName}`, 170, 85, { align: "right" });
+}
 
   // تهيئة بقية الصفحة
   renderPositiveList();
