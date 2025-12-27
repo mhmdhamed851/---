@@ -745,7 +745,7 @@ function generateReport() {
         <img src="${img2Src}" alt="Logo">
     </header>
     <h1>نظام إدارة تقارير السلامة الميدانية</h1>
-    <h1>تقرير متابعة إجراءات السلامة و الأمن في الموقع</h1>
+    <h1>تقرير متابعة إجراءات السلامة في الموقع</h1>
     
     <div class="meta">
         <table>
@@ -879,7 +879,7 @@ function generateReport() {
     if (allBulk.length > 0) {
         html += `
         <div style="page-break-before:always; margin-top:18px;">
-            <h2 style="text-align:right;">صور المخالفات (صفحة الصور النهائية)</h2>
+            <h2 style="text-align:right;">صور لموقع العمل (صفحة الصور النهائية)</h2>
             <div class="images-grid">
                 `;
 
