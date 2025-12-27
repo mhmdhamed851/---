@@ -916,9 +916,9 @@ function clearForm() {
 
     document.getElementById('contractor').value = 'شركة منار الوطنية للمقاولات';
     document.getElementById('supervisor').textContent = 'شركة مجموعة العمرو للإستشارات الهندسية';
-    document.getElementById('projectName').value = 'مشروع تنفيذ أعمال شبكات المياه بالمناطق المحيطة بخران ناوان والأحسية';
+    document.getElementById('projectName').value = 'مشروع تنفيذ أعمال شبكات المياه بالمناطق المحيطة بخران ناوان والأحسبة';
     document.getElementById('projectNumber').value = '141250115';
-    document.getElementById('location').value = 'الباحة - المخواة - الأحسية';
+    document.getElementById('location').value = 'الباحة - المخواة - الأحسبة';
     document.getElementById('inspectionDate').value = '2025-12-08';
     document.getElementById('visitType').value = '1';
 
@@ -962,9 +962,9 @@ function escapeHtml(unsafe) {
 /* ---------- بيانات المقاولين ---------- */
 const contractorsData = {
     "شركة منار الوطنية للمقاولات": {
-        projectName: "مشروع تنفيذ أعمال شبكات المياه بالمناطق المحيطة بخران ناوان والأحسية",
+        projectName: "مشروع تنفيذ أعمال شبكات المياه بالمناطق المحيطة بخران ناوان والأحسبة",
         projectNumber: "141250115",
-        location: "الباحة - المخواة - الأحسية"
+        location: "الباحة - المخواة - الأحسبة"
     },
     "شركة الهداية للمقاولات": {
         projectName: "مشروع توسعة شبكة الصرف الصحي بمنطقة الرياض الشمالية",
